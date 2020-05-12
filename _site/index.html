@@ -1,0 +1,102 @@
+<html>
+	<head>
+		<meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0" />
+		<link rel="stylesheet" type="text/css" href="/css/socialicious.css">
+		<link rel="stylesheet" type="text/css" href="/css/main.css">
+		<link rel="stylesheet" type="text/css" href="/css/monokai.css">
+		<link href="/blog/rss.xml" rel="alternate" type="application/rss+xml" title="Photo Collection" />
+		<title>Photo Collection</title><meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<script type="text/javascript" src='/js/jquery.min.js'></script>
+		<script type="text/javascript" src='/js/jquery.masonry.min.js'></script>
+		<script type="text/javascript" src='/js/jquery.imagesloaded.min.js'></script>
+		<script type="text/javascript" src='/js/highlight.pack.js'></script>
+		<script type="text/javascript">
+			hljs.initHighlightingOnLoad();
+			function applyTiles() {
+				var posts = $('#posts ul');
+				posts.imagesLoaded(function() {
+					$('#posts ul').masonry({ itemSelector : '.post' });;
+				});
+			}
+			$(function() {
+				applyTiles();
+			});
+			$(window).resize(function() {
+				applyTiles();
+			});
+		</script>
+		<style type="text/css">
+		</style>
+	</head>
+	<body>
+		<div id='layout'>
+			<div id='heading'>
+	<div id='logo'>
+		<a href='http://localhost:4000'>Chris</a>
+		<a href='http://localhost:4000' id='logo_docs'>Gong</a>
+</div>
+</div>
+<section id="home-hero"></section>
+
+			<div style='clear: both'></div>
+		</div>
+		<div id='content' class="hp">
+			<div id='posts' class="leftblock">
+				<ul>
+					
+						<li class='post'>
+							
+								<a href='/blog/post1/'><img class='post-image' src="/images/blog/post-pre.jpg" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/post1/'><h1 class='post-title'>main title</h1></a>
+
+								<div class='post-content'></div>
+							</div>
+						</li>
+					
+						<li class='post'>
+							
+								<a href='/blog/post1/'><img class='post-image' src="/images/blog/mystery.png" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/post1/'><h1 class='post-title'>正标题</h1></a>
+
+								<div class='post-content'></div>
+							</div>
+						</li>
+					
+						<li class='post'>
+							
+								<a href='/blog/post6/'><img class='post-image' src="/images/blog/post6.jpg" /></a>
+							
+							<div class="postcontent">
+					<a href='/blog/post6/'><h1 class='post-title'>教你插入多张图片</h1></a>
+
+								<div class='post-content'></div>
+							</div>
+						</li>
+					
+				</ul>
+			</div>
+			<div class="rightblock">
+				<b>我是谁</b>
+<p>
+我叫龚彦文，一名摄影爱好者
+</p>
+<p>
+一个更换颜色的网站<a href="http://clrs.cc" target="_blank">CLRS</a>.
+</p>
+<p>
+Type anything you want~
+</p>
+
+			</div>
+			<div style='clear:both'></div>
+		</div>
+		<div id='footer'>
+			<a href="/about/">About</a> | Chris Gong Photo Collection - 2020
+		</div>
+	</div>
+</body>
+</html>

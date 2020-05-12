@@ -1,0 +1,11 @@
+permalink: /:categories/:title/
+url: "http://example.com"
+full_name: "Chris Gong Photo Collection"
+first_name: "Chris"
+last_name: "Gong"
+blog_title: "Photo Collection"
+author_img_name_path: "/images/users/user.jpeg"
+# disqus_shortname: "comments"
+copyright_year: "2020"
+google_analytics_code: ""
+aboutme: "cool girl"
